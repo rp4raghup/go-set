@@ -1,6 +1,4 @@
-package go_set
-
-import "fmt"
+package go-set
 
 // Set returns set from list
 type Set struct {
@@ -18,9 +16,3 @@ func (s *Set) Elements() []int {
 	}
 	return outList
 }
-/*
-func main() {
-	s1 := Set{elems: []int{1, 1, 2, 3, 4, 2, 1}}
-	fmt.Println(s1.Elements())
-}
-*/
