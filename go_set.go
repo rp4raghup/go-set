@@ -1,4 +1,4 @@
-package go-set
+package go_set
 
 // Set returns set from list
 type Set struct {
